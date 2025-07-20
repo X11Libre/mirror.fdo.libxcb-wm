@@ -2155,7 +2155,7 @@ xcb_void_cookie_t xcb_ewmh_set_wm_user_time(xcb_ewmh_connection_t *ewmh,
 
 xcb_void_cookie_t xcb_ewmh_set_wm_user_time_checked(xcb_ewmh_connection_t *ewmh,
                                                     xcb_window_t window,
-                                                    uint32_t pid);
+                                                    uint32_t xtime);
 
 xcb_get_property_cookie_t xcb_ewmh_get_wm_user_time_unchecked(xcb_ewmh_connection_t *ewmh,
                                                               xcb_window_t window);
@@ -2185,7 +2185,7 @@ xcb_void_cookie_t xcb_ewmh_set_wm_user_time_window(xcb_ewmh_connection_t *ewmh,
 
 xcb_void_cookie_t xcb_ewmh_set_wm_user_time_window_checked(xcb_ewmh_connection_t *ewmh,
                                                            xcb_window_t window,
-                                                           uint32_t pid);
+                                                           uint32_t xtime);
 
 xcb_get_property_cookie_t xcb_ewmh_get_wm_user_time_window_unchecked(xcb_ewmh_connection_t *ewmh,
                                                                      xcb_window_t window);
